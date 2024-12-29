@@ -4,35 +4,18 @@ body {
   background-color: whitesmoke;
 }
 
-.anil {
-  background-color: white;
-  color: black;
-  padding: 15px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1),
-    -1px -1px 2px rgba(255, 255, 255, 0.1);
-  width: 30%;
-  border-radius: 2%;
-  position: relative;
-  top: 10rem;
+.background {
+  background-color: rgb(40, 61, 21);
+  padding: 100px;
+  margin-right: 10px;
+}
+.background_g {
+  background-color: rgb(25, 90, 25);
+  padding: 100px;
+  margin-right: 10px;
 }
 
-.anil:hover {
-  background-color: #37e8ff;
-
-  a {
-    color: black;
-  }
-}
-
-.anil__flex {
+.test__flex {
   display: flex;
-  gap: 25px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  min-height: 50vh;
-  align-items: center;
-  a {
-    color: aqua;
-    text-decoration: none;
-  }
+  color: white;
 }
